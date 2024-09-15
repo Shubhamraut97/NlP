@@ -7,7 +7,7 @@ Columns:
 review: Text of the movie review.
 sentiment: Sentiment label (1 = positive, 0 = negative).
 Steps
-Data Preprocessing: Clean the text, remove stopwords, and lemintaixe.
+Data Preprocessing: Clean the text, remove stopwords, tokenize and Lemmatization.
 Feature Extraction: Convert text into numerical features using countvectorizer.
 Model Training: Train machine learning models like  Random Forest, and Naive Bayes.
 Evaluation: Evaluate the models using accuracy, precision, recall, and F1-score.
